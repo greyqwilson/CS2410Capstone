@@ -1,0 +1,28 @@
+Label: Pocket Guide to Transportation
+used for: ghg emissions by year
+src: https://data.bts.gov/dataset/Greenhouse-Gas-Emissions-by-Sector/bja4-phgj
+dl: https://data.bts.gov/api/views/neuq-kfdt/rows.csv?accessType=DOWNLOAD&bom=true&format=true
+
+Label: tEmissionsSectors
+used for: ghg emissions by transportation sector
+src: https://www.bts.gov/browse-statistical-products-and-data/freight-facts-and-figures/us-greenhouse-gas-emissions-domestic
+dl: https://explore.dot.gov/vizql/w/U_S_GreenhouseGasEmissionsfromDomesticFreightTransportation/v/Data/vudcsv/sessions/59BA1CD383F4425D84EC2803D6D9FACD-1:0/views/7713620505763405234_1765027380110197206?summary=true
+
+Label: emissionSector_all
+used for: ghg emissions per year by all economic sectors
+src: https://cfpub.epa.gov/ghgdata/inventoryexplorer/#allsectors/allsectors/allgas/econsect/all
+dl: blob:https://cfpub.epa.gov/03c3105c-ac34-40fd-9448-acd3bed83ae3
+
+Label: National highway maitenance (sf12)
+used for: highway maitenance
+src: https://www.fhwa.dot.gov/policyinformation/statistics.cfm
+
+Label: Miles of roadway per year
+used for: extent of us road system
+src: https://www.fhwa.dot.gov/policyinformation/statistics/2020/hm220.cfm
+dl: https://www.fhwa.dot.gov/policyinformation/statistics/2020/xls/hm220.xls
+
+Label: US Railway length
+used for: length of us rail network
+src: https://www.railserve.com/stats_records/railroad_route_miles.html
+

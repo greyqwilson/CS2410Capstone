@@ -1,0 +1,63 @@
+#bar chart 
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+year=['2019: total trip 10362419419','2020: total trip 7330375516','2021: total trip 10987633448']
+pos = np.arange(len(year))
+data= [10362419419, 7330375516, 10987633448]
+color = ['red','blue','green']
+
+plt.barh(pos,data,color= color,edgecolor='black')
+plt.yticks(pos, year)
+plt.xlabel('trip <1 miles', fontsize=16)
+plt.ylabel('year', fontsize=16)
+plt.title('Barchart -Total trip',fontsize=20)
+plt.show()
+
+#pie chart 
+import matplotlib.pyplot as plt
+
+
+year=['2019','2020','2021']
+sizes = [4258954381209, 3012784337076, 4515917347128]
+explode = (0,0,0) 
+
+fig1, ax1 = plt.subplots()
+
+plt.title("C02 from total trip < miles")
+ax1.pie(sizes, explode=explode, autopct='%1.1f%%',
+        shadow=True, startangle=90)
+ax1.axis('equal') 
+plt.legend(year,loc="lower left")
+plt.show()
+
+#vehicle registration
+import matplotlib.pyplot as plt
+import numpy as np   
+
+year= np.array([1990,"","","","","1995","","","","","2000","","","","","2005","","","","","2010","","","","","2015","","","","","2020"])
+data = np.array([19305738,19231383,19442735,19804134,20180192,20542721,21044125,21158003,21549600,22046106,22582124,23533138,23462414,23676003,24301055,24742112,25084464,25440308,25591766,25421261,25007005,25310839,25363939,25587682,26035094,26361022,26879908,27248090,27360210,27649117,27592444])
+pos = np.arange(len(year))
+
+plt.scatter(pos,data,color= "blue",edgecolor='black')
+plt.xticks(pos, year)
+plt.ylabel('# vehicle registrations', fontsize=16)
+plt.xlabel('years', fontsize=16)
+plt.title('Vehicle registrations In U.S ',fontsize=20)
+plt.show()
+
+#public transit
+from matplotlib import pyplot as plt #another way of import
+import numpy as np
+year = [2000,"","","", 2004,"","","", 2008,"","","", 2012,"","","", 2016,"","","", 2020,"", ""]
+data = [9450556,9681209, 9594920,9330859,9455687,9633106,9978300,10621026,10659832,10219211,10062676,10261570,10465527,10563112,10673050,10438935,10248597,10009897,9848649,9886741,4665917, 4786520, 4452211]
+# create a line chart, years on x-axis, gdp on y-axis
+pos = np.arange(len(year))
+
+plt.bar(pos,data,color= "green",edgecolor='black')
+plt.xticks(pos, year)
+plt.ylabel('# public transit', fontsize=16)
+plt.xlabel('years', fontsize=16)
+plt.title('Public transit from 2000-2022 ',fontsize=20)
+plt.show()

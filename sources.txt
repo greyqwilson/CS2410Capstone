@@ -37,3 +37,11 @@ Label: Public transit
 src: https://fred.stlouisfed.org/series/TRANSIT
 size: 5,017 bytes
 
+Label: Air quality of LA
+used for: Air quality trends
+src: http://www.laalmanac.com/environment/ev01b.php
+
+Label: Urban Sprawl
+used for: Urban sprawl statistics
+src: https://ggwash.org/view/33772/as-it-turns-out-suburban-sprawl-actually-peaked-20-years-ago
+

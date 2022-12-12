@@ -27,10 +27,13 @@ used for: length of us rail network
 src: https://www.railserve.com/stats_records/railroad_route_miles.html
 
 Label: Trip by distance
-src: https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv/data
+src: https://data.bts.gov/Research-and-Statistics/Trips-by-Distance/w96p-f2qv/data 
+size: 496,754,384 bytes
 
 Label: Car registration in U.S
 src: https://www.statista.com/statistics/183505/number-of-vehicles-in-the-united-states-since-1990/
 
 Label: Public transit
 src: https://fred.stlouisfed.org/series/TRANSIT
+size: 5,017 bytes
+
